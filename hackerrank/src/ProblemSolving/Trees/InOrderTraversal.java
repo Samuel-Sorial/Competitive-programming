@@ -1,6 +1,6 @@
 package ProblemSolving.Trees;
 
-public class TreeInorderTraversal {
+public class InOrderTraversal {
     /**
      * @author: Samuel-Sorial
      * https://www.hackerrank.com/challenges/tree-inorder-traversal/problem

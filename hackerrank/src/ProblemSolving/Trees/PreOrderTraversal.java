@@ -1,15 +1,10 @@
 package ProblemSolving.Trees;
 
-public class TreePreorderTraversal {
+public class PreOrderTraversal {
     /**
      * @author: Samuel-Sorial
      * https://www.hackerrank.com/challenges/tree-preorder-traversal/problem
      */
-    class Node{
-        int data;
-        Node left;
-        Node right;
-    }
     public void preOrder(Node root) {
         if (root == null)
             return;

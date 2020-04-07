@@ -1,16 +1,12 @@
 package ProblemSolving.Trees;
 
-public class TreePostorderTraversal {
+public class PostOrderTraversal {
     /**
      * @author: Samuel-Sorial
      * https://www.hackerrank.com/challenges/tree-postorder-traversal/problem
      */
-    class Node{
-        int data;
-        Node left;
-        Node right;
-    }
-    public void postOrder(TreePreorderTraversal.Node root) {
+
+    public void postOrder(Node root) {
         if (root == null)
             return;
         else {
