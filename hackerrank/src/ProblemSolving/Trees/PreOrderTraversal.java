@@ -1,4 +1,4 @@
-package ProblemSolving;
+package ProblemSolving.Trees;
 
 public class TreePreorderTraversal {
     /**

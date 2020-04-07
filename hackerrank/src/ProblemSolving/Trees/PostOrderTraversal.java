@@ -1,4 +1,4 @@
-package ProblemSolving;
+package ProblemSolving.Trees;
 
 public class TreePostorderTraversal {
     /**
@@ -7,8 +7,8 @@ public class TreePostorderTraversal {
      */
     class Node{
         int data;
-        TreePreorderTraversal.Node left;
-        TreePreorderTraversal.Node right;
+        Node left;
+        Node right;
     }
     public void postOrder(TreePreorderTraversal.Node root) {
         if (root == null)
