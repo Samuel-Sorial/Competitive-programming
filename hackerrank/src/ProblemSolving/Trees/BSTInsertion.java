@@ -15,4 +15,7 @@ public class BSTInsertion {
              root.left =  insert(root.left,data); // If less, continue and append it to left
          return root;
      }
+     public static void main(String[] args){
+         System.out.println("Hello");
+     }
 }
