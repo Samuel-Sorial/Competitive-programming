@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class VanyaAndFence {
-
+    /* https://codeforces.com/contest/677/problem/A */
     private static int requiredWidth(int[] peopleHeight,int allowedHeight) {
         int totalWidth = 0;
         for(int i : peopleHeight) {
