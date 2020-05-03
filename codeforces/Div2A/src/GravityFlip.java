@@ -2,6 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class GravityFlip {
+    /* https://codeforces.com/contest/405/problem/A */
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         int totalCols = in.nextInt();
