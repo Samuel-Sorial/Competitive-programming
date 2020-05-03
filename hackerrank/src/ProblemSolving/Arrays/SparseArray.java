@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 public class SparseArray {
 
-    // Complete the matchingStrings function below.
+    /* https://www.hackerrank.com/challenges/sparse-arrays/problem */
     static int[] matchingStrings(String[] strings, String[] queries) {
         HashMap<String, Integer> countString = new HashMap<>();
         countString = prepareMap(countString, strings);
