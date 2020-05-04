@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class SerejaDima {
+    /* https://codeforces.com/contest/381/problem/A */
     public static void calculateScores(int totalCards, int[] cards) {
         int n = totalCards - 1;
         int ourZero = 0;
