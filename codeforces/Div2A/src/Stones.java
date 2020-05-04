@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Stack;
 
 public class Stones {
     /* https://codeforces.com/contest/266/problem/A */
