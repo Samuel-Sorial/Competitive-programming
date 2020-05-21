@@ -1,6 +1,5 @@
-package ProblemSolving;
+package ProblemSolving.Arrays;
 
-import org.junit.Test;
 
 import java.util.Scanner;
 
@@ -37,13 +36,5 @@ public class LeftRotation {
             b[i] = a[(i+d)%a.length];
         }
         return b;
-    }
-
-    @Test
-    public void test(){
-        int[] arr = {1,2,3,4,5};
-        int[] b = LeftRotation.leftRotate(arr,4);
-        for(int i : b)
-            System.out.println(i);
     }
 }

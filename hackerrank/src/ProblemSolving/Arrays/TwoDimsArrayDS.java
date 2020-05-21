@@ -1,6 +1,5 @@
-package ProblemSolving;
+package ProblemSolving.Arrays;
 
-import org.junit.Test;
 
 import java.util.Arrays;
 
@@ -39,16 +38,4 @@ public class TwoDimsArrayDS {
         return sum;
     }
 
-    @Test
-    public  void test(){
-        int[][] test = new int[6][6];
-        int current = 0;
-        for(int i = 0; i<test.length; i++) {
-            for (int j = 0; j < test[i].length; j++){
-                test[i][j] = current;
-                current++;
-            }
-        }
-        int max = hourglassSum(test);
-    }
 }

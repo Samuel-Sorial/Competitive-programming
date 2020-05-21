@@ -1,4 +1,4 @@
-package ProblemSolving;
+package ProblemSolving.Arrays;
 
 /**
  * My solution to Array-DS problem : https://www.hackerrank.com/challenges/arrays-ds/problem

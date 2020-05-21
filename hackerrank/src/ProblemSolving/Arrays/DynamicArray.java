@@ -1,6 +1,5 @@
-package ProblemSolving;
+package ProblemSolving.Arrays;
 
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,34 +36,4 @@ public class DynamicArray {
         return lastAnswers;
     }
 
-    @Test
-    public void  test(){
-        List<List<Integer>> test = new ArrayList<>();
-        List<Integer> first = new ArrayList<>();
-        first.add(1);
-        first.add(0);
-        first.add(5);
-        test.add(first);
-        List<Integer> second = new ArrayList<>();
-        second.add(1);
-        second.add(1);
-        second.add(7);
-        test.add(second);
-        List<Integer> third = new ArrayList<>();
-        third.add(1);
-        third.add(0);
-        third.add(3);
-        test.add(third);
-        List<Integer> fourth = new ArrayList<>();
-        fourth.add(2);
-        fourth.add(1);
-        fourth.add(0);
-        test.add(fourth);
-        List<Integer> fifth = new ArrayList<>();
-        fifth.add(2);
-        fifth.add(1);
-        fifth.add(1);
-        test.add(fifth);
-        dynamicArray(5,test);
-    }
 }
