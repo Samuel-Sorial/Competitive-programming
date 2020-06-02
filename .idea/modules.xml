@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Competitive-programming.iml" filepath="$PROJECT_DIR$/Competitive-programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codeforces/codeforces.iml" filepath="$PROJECT_DIR$/codeforces/codeforces.iml" />
       <module fileurl="file://$PROJECT_DIR$/hackerrank/hackerrank.iml" filepath="$PROJECT_DIR$/hackerrank/hackerrank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uva.onlinejudge/uva.onlinejudge.iml" filepath="$PROJECT_DIR$/uva.onlinejudge/uva.onlinejudge.iml" />
     </modules>
   </component>
 </project>
