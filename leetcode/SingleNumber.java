@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 public class SingleNumber{
     public int singleNumber(int[] nums) {
         Map<Integer,Boolean> repeated = new HashMap<>();
