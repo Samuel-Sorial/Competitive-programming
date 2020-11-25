@@ -3,6 +3,7 @@ import java.util.Map;
 
 public class SingleNumber{
     public int singleNumber(int[] nums) {
+        
         Map<Integer,Boolean> repeated = new HashMap<>();
         for(int i=0; i<nums.length; i++){
             if(repeated.get(nums[i]) == null)
