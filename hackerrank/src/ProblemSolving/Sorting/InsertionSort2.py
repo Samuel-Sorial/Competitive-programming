@@ -6,6 +6,8 @@ import random
 import re
 import sys
 
+# https://www.hackerrank.com/challenges/insertionsort2/problem
+
 def insertionSort2(n, arr):
     # Start with key, at index 1
     k = 1
