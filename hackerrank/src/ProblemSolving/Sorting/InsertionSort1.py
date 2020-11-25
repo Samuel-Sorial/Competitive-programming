@@ -6,7 +6,7 @@ import random
 import re
 import sys
 
-# Complete the insertionSort1 function below.
+# Implementing half of the insertion sort algorithm
 def insertionSort1(n, arr):
     # Store the unsorted key
     key = arr[n-1]
@@ -27,11 +27,13 @@ def insertionSort1(n, arr):
         printArray(arr)
     printArray(arr)
 
-
+# Helper function to print the array at each step
 def printArray(arr):
     for i in arr:
         print(i, end = ' ')
     print()
+
+
 if __name__ == '__main__':
     n = int(input())
 
