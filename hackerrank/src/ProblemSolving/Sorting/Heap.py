@@ -1,3 +1,7 @@
+class Heap:
+    A = [0]
+    size = 0
+
 ## Left child of a given node
 def left(i):
     return 2*i
@@ -12,10 +16,6 @@ def parent(i):
     return i // 2
 
 
-class Heap:
-    A = [0]
-    size = 0
-
 
 ## Insert min value in the given heap
 def insert_min_heap(heap, value):
@@ -24,18 +24,21 @@ def insert_min_heap(heap, value):
     min_heapify(heap, parent(heap.size))
 
 
-## Corrects the violation on a given heap
+## Corrects the violation on a given sub heap
+## Precondition: the whole heap is a correct min heap except that sub heap
 def min_heapify(heap, i):
         rightChild = right(i)
         leftChild = left(i)
         if leftChild <= heap.size and heap.A[leftChild] < heap.A[i]:
             min = leftChild
-            swap(min, i, heap.A)
-            min_heapify(heap, parent(i))
         if rightChild <= heap.size and heap.A[rightChild] < heap.A[i]:
-            min = rightChild
+            if not min or heap.A[rightChild] < heap.A[min]:
+                min = rightChild
+        if min:
             swap(min, i, heap.A)
             min_heapify(heap, parent(i))
+      
+
 
 
 ## Swaps the two given indexes with each other
