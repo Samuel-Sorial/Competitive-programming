@@ -1,4 +1,4 @@
-public class Solution {
+public class ShuffleArray {
     // Solution for https://leetcode.com/problems/shuffle-the-array/
 
     public int[] Shuffle(int[] nums, int n) {
