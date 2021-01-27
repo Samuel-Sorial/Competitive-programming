@@ -7,27 +7,26 @@ namespace LeetCode
     {
         public bool IsPalindrome(int x)
         {
-            if (x == 1)
+            if (x < 0)
+            {
+                return false;
+            }
+            if (x == 0)
             {
                 return true;
             }
             int cursorInteger = x;
-            int[] digits = new int[31];
-            int i = 0;
-            decimal number = (decimal)cursorInteger;
-            while (number > 1)
+            int rev = 0;
+            while (cursorInteger != 0)
             {
-                number /= 10;
+                rev = (rev * 10) + (cursorInteger % 10);
                 cursorInteger /= 10;
-                digits[i] = (int)((number - cursorInteger) * 10);
-                i++;
+                if (rev == x)
+                {
+                    return true;
+                }
             }
-            int newNumber = 0;
-            for (int j = i - 1; j >= 0; j--)
-            {
-                newNumber += digits[j] * (int)Math.Pow(10, i - j - 1);
-            }
-            return newNumber == x;
+            return false;
         }
     }
 }
