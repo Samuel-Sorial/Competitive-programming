@@ -7,3 +7,4 @@
 *.iml
 packages-microsoft-prod.deb
 .vscode/launch.json
+/.vs
